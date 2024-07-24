@@ -1,5 +1,5 @@
 {
-  "name": "fotogramas-backend",
+  "name": "conecta-talentos-backend",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -65,5 +65,18 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    }
   }
 }
